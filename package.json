@@ -6,11 +6,14 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
     "ios": "react-native run-ios --simulator=\"iPhone 8\"",
-    "android": "react-native run-android"
+    "android": "react-native run-android",
+    "custom-android": "export PATH=\"/Users/abigail.mariano/Library/Android/sdk/platform-tools\":$PATH && react-native run-android"
   },
   "dependencies": {
     "react": "16.6.1",
-    "react-native": "0.57.5"
+    "react-native": "0.57.5",
+    "react-redux": "^5.1.1",
+    "redux": "^4.0.1"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
